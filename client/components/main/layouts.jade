@@ -95,7 +95,7 @@ template(name="message")
   .big-message.quiet(class=color)
     h1 {{_ label}}
     unless currentUser
-      with(pathFor route='atSignIn')
+      with(pathFor 'atSignIn')
         p {{{_ 'page-maybe-private' this}}}
 
 template(name="loader")
