@@ -19,12 +19,65 @@ Fixing other platforms In Progress.
 
 This release adds the following new features:
 
+- [Helm Chart: Add option to set resource limits for initContainer](https://github.com/wekan/charts/pull/33).
+  Thanks to mreichelt-dicos.
+
+and adds the following updates:
+
+- [Updated dependencies](https://github.com/wekan/wekan/pull/5460).
+  Thanks to dependabot.
+- Added RepoCloud SaaS.
+  [Part 1](https://github.com/wekan/wekan/commit/21d6dfd79090f9885635f55537bd9fa1ef8539e1),
+  [Part 2](https://github.com/wekan/wekan/commit/e663ce038af397f547e8823d61ce5dc2e3cea84d),
+  [Part 3](https://github.com/wekan/wekan.github.io/commit/e9e0550824cdda31daae42df7c497fbd037fd78f).
+  Thanks to RepoCloud.
+
+and fixes the following bugs:
+
+- [Fixes to Clean light and Clean dark themes](https://github.com/wekan/wekan/pull/5458).
+  Thanks to abramchikd.
+
+Thanks to above GitHub users for their contributions and translators for their translations.
+
+# v7.51 2024-06-27 WeKan ® release
+
+This release adds the following updates:
+
+- [Updated dependencies](https://github.com/wekan/wekan/pull/5452).
+  Thanks to dependabot.
+- Moved docs from wiki to wekan repo docs directory, organized to subdirectories. Organizing and updating in progress.
+  [Part 1](https://github.com/wekan/wekan/commit/1961e22cbd51e83aa131c8b092c7d43475a021eb),
+  [Part 2](https://github.com/wekan/wekan/commit/ce89ff48331a27ffb42d021833c78df3a462b9db),
+  [Part 3](https://github.com/wekan/wekan/commit/449c02c42a0183a49592ada89bdfb8f25e5db903),
+  [Part 4](https://github.com/wekan/wekan/commit/0fb2f7fdd6b6cb828ab4ea534204a5b834d2e19a),
+  [Part 5](https://github.com/wekan/wekan/commit/e9c1c620eb938349c30761497066daf41cdcfc19),
+  [Part 6](https://github.com/wekan/wekan/commit/6b7b66801b716e1d0bf2548b18eed4ed4e354f2d),
+  [Part 7](https://github.com/wekan/wekan/commit/1cfaddff9cd4fe84fb74c80d1585f2a5dd65f5ca),
+  [Part 8](https://github.com/wekan/wekan/commit/057ac4031eaa912b849c637e163f4dffa79a9329),
+  [Part 9](https://github.com/wekan/wekan/commit/52375df78380bbe3407b51dc986baaf6f31f40e4),
+  [Part 10](https://github.com/wekan/wekan/commit/00a56f6aaa0c2bcd24ca8829a0718b45e7cedf04),
+  [Part 11](https://github.com/wekan/wekan/commit/c863428aa2597457fc4931e7b1bdd75d6cc2610b).
+  Thanks to xet7.
+
+and fixes the following bugs:
+
+- [Fix ModernDark Cards not showing correctly](https://github.com/wekan/wekan/pull/5455).
+  Thanks to walster001.
+
+Thanks to above GitHub users for their contributions and translators for their translations.
+
+# v7.50 2024-06-22 WeKan ® release
+
+This release adds the following new features:
+
 - [Added "Clean dark" and "Clean light" themes that are more clean and modern looking](https://github.com/wekan/wekan/pull/5449).
   Thanks to abramchikd.
 
 and adds the following updates:
 
-- [Updated docs for WeKan version for Windows](https://github.com/wekan/wekan/commit/9b428150a4fb9efdcb2ae9d3bb59d0da29529e69).
+- Updated docs for WeKan version for Windows.
+  [Part 1](https://github.com/wekan/wekan/commit/9b428150a4fb9efdcb2ae9d3bb59d0da29529e69),
+  [Part 2](https://github.com/wekan/wekan/commit/3c35a6400b88e071a474a552ee941892522c8d59).
   Thanks to xet7.
 - Updated dependencies.
   [Part 1](https://github.com/wekan/wekan/pull/5446),
